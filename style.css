@@ -1,27 +1,20 @@
-.ui.borderless.menu {
+.ui.borderless.topmenu.container.menu {
   box-shadow: none;
   border: none;
-  font-size: 15px;
 }
 
-.footer {
-  background-color: #004030;
-  box-shadow: none;
-  border: none;
-  color: white;
-  font-size: 15px;
-}
-
-.grad-background {
-  background: url('http://courses.ics.hawaii.edu/ics314f20/morea/ui-frameworks/murphys-front.jpg') no-repeat center center fixed;
+.murphys-background {
+  background: url(http://courses.ics.hawaii.edu/ics314f20/morea/ui-frameworks/murphys-front.jpg) no-repeat center center fixed;
+  background-size: cover;
   height: 500px;
-}
-.ui.container.colorblocktop {
   color: white;
 }
 
-.ui.header {
+.footer-background {
+  background-color: #004030;
   color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 
